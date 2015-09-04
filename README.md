@@ -25,11 +25,11 @@ Continuing with our payroll example from earlier, employees and managers would b
 
 Our managers table would look something like this:
 
-![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-03%20at%205.28.33%20PM.png)
+![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-04%20at%2011.06.26%20AM.png)
 
 And our employees table would look something like this: 
 
-![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-03%20at%205.29.33%20PM.png)
+![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-04%20at%2011.06.16%20AM.png)
 
 Our employees table has a "Manager ID" column, filled with the ID number of that person's manager. In a relational database, every row has a number, called a **primary key**. Relationships between tables can be established by using a **foreign key** column, like our "Manager ID" column, that uses that primary key of another table to refer to a member of that table. 
 
