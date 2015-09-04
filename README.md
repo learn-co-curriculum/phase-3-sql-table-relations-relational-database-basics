@@ -25,11 +25,11 @@ Continuing with our payroll example from earlier, employees and managers would b
 
 Our managers table would look something like this:
 
-![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-04%20at%2011.06.26%20AM.png)
+![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-04%20at%2011.17.31%20AM.png)
 
 And our employees table would look something like this: 
 
-![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-04%20at%2011.06.16%20AM.png)
+![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-04%20at%2011.17.25%20AM.png)
 
 Our employees table has a "Manager ID" column, filled with the ID number of that person's manager. In a relational database, every row has a number, called a **primary key**. Relationships between tables can be established by using a **foreign key** column, like our "Manager ID" column, that uses that primary key of another table to refer to a member of that table. 
 
@@ -56,9 +56,3 @@ The language they created was SQL––Structured (or Standard) Query Language. 
 ## Conclusion
 
 Now that we understand the general concept and utility of a relational database, and have a working definition of SQL, we're ready to move forward. In this unit, we'll be learning the basics of SQL to create and manage our own database tables. 
-
-## Look Ahead
-
-Later on, we'll learn how to connect our Ruby applications to our SQL databases. For example, a basic web application that you're likely to build in the future might have many users. So far, we've learned how to build a Ruby `User` class that produces user objects. But, we don't yet know how to store those users and their details. If a user signs up for their app and then we loose all their information immediately, we're not likely to be providing a very popular app. We need a way to take our Ruby objects, store them in a database and retrieve them at the appropriate time, for example when an existing user signs back in to our app. 
-
-We've already built out domain models in which instances of classes are related to one another. With the SQL skills we'll be learning in this unit, we'll be able to put it all together and build apps that actually save data. 
