@@ -9,7 +9,7 @@
 
 Let's say that you've been hired by a big and important company, we'll call it MyFace (inspired by nothing in particular), to do the payroll for all of their employees. So, every two weeks, you need to look up each and every employee and how much they get paid, and send a them a check *and* send a notice of that check to their manager (managers, after all, should know when their employees are getting paid). 
 
-In addition, let's say that managers get paid every month, instead of every two weeks. So, every month we need to go through out spreadsheet again and find *just the managers* this time, and send them *their* checks. In such a situation, we would need a place to store all of the managers and employees. 
+In addition, let's say that managers get paid every month, instead of every two weeks. So, every month we need to go through the spreadsheet again and find *just the managers* this time, and send them *their* checks. In such a situation, we would need a place to store all of the managers and employees. 
 
 Using a spreadsheet, your storage system might look something like this: 
 
