@@ -2,8 +2,10 @@
 
 ## Objectives
 
-1. Define a relational database and understand the need for using such a database. 
-2. Learn about Edgar Codd, the inventor of Structured Query Language (SQL).
+1. Define a relational database as a database that recognizes relations between different items of information
+2. Describe the structure of a relational database structure as tables related through the use of primary and foreign keys
+3. Define a primary key 
+4. Define a foreign key
 
 ## Relational Databases
 
