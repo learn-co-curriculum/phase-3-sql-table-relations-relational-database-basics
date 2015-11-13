@@ -1,6 +1,6 @@
 # Edgar Codd and Relational Databases
 
-# Overview
+## Overview
 
 We'll introduce the concept of relational databases and how it recognizes relations among stored items of information.
 
