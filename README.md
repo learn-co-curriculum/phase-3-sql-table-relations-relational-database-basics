@@ -58,3 +58,5 @@ Codd developed Relational Database Theory as a graduate student. Afterwards, he 
 
 The language they created was SQL––Structured (or Standard) Query Language. SQL allows the user to carry our queries like "find the employees who make more than the managers", or "find the managers whose employees make under $X" in an efficient and sensical manner. Before SQL, database queries were all about *where* data was stored, instead of *what* data a user is looking for. 
 
+
+<a href='https://learn.co/lessons/sql-relational-databases-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
