@@ -20,7 +20,7 @@ Using a spreadsheet, your storage system might look something like this:
 
 ![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-03%20at%205.12.12%20PM.png)
 
-So every two weeks, we would have to look through every single entry in this spreadsheet, send each person their check and then, figure out a way to identify an employee's manager to send that manager a confirmation that each employee has been paid. We need some way to *associate* the employees to their manager. We could add a "Manager" column to the spreadsheet that would be filled out with the name of that person's manager (if that person is an employee and not a manager themselves). This is getting messy. Not only do we have to do a lot of searching through the spreadsheet and manual detection of who is an employee and who is a manager, but we also have to match each employee with the name of their manager. If only their was some way to simplify our system!
+So every two weeks, we would have to look through every single entry in this spreadsheet, send each person their check and then, figure out a way to identify an employee's manager to send that manager a confirmation that each employee has been paid. We need some way to *associate* the employees to their manager. We could add a "Manager" column to the spreadsheet that would be filled out with the name of that person's manager (if that person is an employee and not a manager themselves). This is getting messy. Not only do we have to do a lot of searching through the spreadsheet and manual detection of who is an employee and who is a manager, but we also have to match each employee with the name of their manager. If only there was some way to simplify our system!
 
 Enter relational databases. A relation database, simply put, is **a database structured to recognize relations among stored items of information.** In such a system, it would be easy to tell an employee that they *belong to* a certain manager and to tell a manager that they *have many* employees. This might sound familiar if you've built object oriented Ruby programs in which instances of a class are related to one another. A relational database will allow us to store representations of our Ruby objects and preserve the relationships between those objects when we store them. 
 
@@ -40,7 +40,7 @@ Our employees table has a "Manager ID" column, filled with the ID number of that
 
 Why should our foreign key, our point of reference between an employee and his or her manager, be a number? Why not just use the manager's name? Well, names are very rarely unique. What if MyFace hires a new manager, also named Steve? It's a popular name, after all. How would our database know *which* Steve manages which employees. Primary keys, on the other hand, **are always unique!**
 
-Additionally, what if Steve gets sick of sharing his name with all of the other Steves out there and decides to change his name to Brittany? We would have to look up every single employee that had Steve as a manager and change a "Manager Name" column to "Brittany". We are programmers, we're lazy, we like to code for the future and our databases are no exception. If we uses primary keys, i.e. numbers that never change and always refer to the same manager, our database can accommodate something like a manager's name change with ease. 
+Additionally, what if Steve gets sick of sharing his name with all of the other Steves out there and decides to change his name to Brittany? We would have to look up every single employee that had Steve as a manager and change a "Manager Name" column to "Brittany". We are programmers, we're lazy, we like to code for the future and our databases are no exception. If we use primary keys, i.e. numbers that never change and always refer to the same manager, our database can accommodate something like a manager's name change with ease. 
 
 Now, with these separated but related tables, our job just got a lot easier. We should thank...
 
@@ -60,3 +60,5 @@ The language they created was SQL––Structured (or Standard) Query Language. 
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sql-relational-databases-readme' title='Edgar Codd and Relational Databases'>Edgar Codd and Relational Databases</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sql-relational-databases-readme'>Edgar Codd and Table Relations</a> on Learn.co and start learning to code for free.</p>
