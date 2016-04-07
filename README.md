@@ -22,7 +22,7 @@ Using a spreadsheet, your storage system might look something like this:
 
 So every two weeks, we would have to look through every single entry in this spreadsheet, send each person their check and then, figure out a way to identify an employee's manager to send that manager a confirmation that each employee has been paid. We need some way to *associate* the employees to their manager. We could add a "Manager" column to the spreadsheet that would be filled out with the name of that person's manager (if that person is an employee and not a manager themselves). This is getting messy. Not only do we have to do a lot of searching through the spreadsheet and manual detection of who is an employee and who is a manager, but we also have to match each employee with the name of their manager. If only there was some way to simplify our system!
 
-Enter relational databases. A relation database, simply put, is **a database structured to recognize relations among stored items of information.** In such a system, it would be easy to tell an employee that they *belong to* a certain manager and to tell a manager that they *have many* employees. This might sound familiar if you've built object oriented Ruby programs in which instances of a class are related to one another. A relational database will allow us to store representations of our Ruby objects and preserve the relationships between those objects when we store them. 
+Enter relational databases. A relational database, simply put, is **a database structured to recognize relations among stored items of information.** In such a system, it would be easy to tell an employee that they *belong to* a certain manager and to tell a manager that they *have many* employees. This might sound familiar if you've built object oriented Ruby programs in which instances of a class are related to one another. A relational database will allow us to store representations of our Ruby objects and preserve the relationships between those objects when we store them. 
 
 ### Relational Database Structure
 
@@ -60,5 +60,3 @@ The language they created was SQL––Structured (or Standard) Query Language. 
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sql-relational-databases-readme' title='Edgar Codd and Relational Databases'>Edgar Codd and Relational Databases</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sql-relational-databases-readme'>Edgar Codd and Table Relations</a> on Learn.co and start learning to code for free.</p>
