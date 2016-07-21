@@ -2,31 +2,31 @@
 
 ## Overview
 
-We'll introduce the concept of relational databases and how it recognizes relations among stored items of information.
+We'll introduce the concept of relational databases and how they recognize relations among stored items of information.
 
 ## Objectives
 
-1. Describe the structure of a relational database structure as tables related through the use of primary and foreign keys
-2. Define a primary key 
+1. Describe the structure of a relational database as tables related through the use of primary and foreign keys
+2. Define a primary key
 3. Define a foreign key
 
 ## Relational Databases
 
 Let's say that you've been hired by a big and important company to do the payroll for all of their employees. We'll call it MyFace (inspired by nothing in particular). Every two weeks, you need to look up each and every employee and how much they get paid, and send them a check *and* send a notice of that check to their manager (managers, after all, should know when their employees are getting paid). 
 
-In addition, let's say that managers get paid every month, instead of every two weeks. So, every month we need to go through the spreadsheet again and find *just the managers* this time, and send them *their* checks. In such a situation, we would need a place to store all of the managers and employees. 
+In addition, let's say that managers get paid every month, instead of every two weeks. So, once a month we need to go through the spreadsheet again, find *just the managers*, and send them *their* checks. In such a situation, we would need a place to store all of the managers and employees. 
 
 Using a spreadsheet, your storage system might look something like this: 
 
 ![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-09-03%20at%205.12.12%20PM.png)
 
-So every two weeks, we would have to look through every single entry in this spreadsheet, send each person their check and then, figure out a way to identify an employee's manager to send that manager a confirmation that each employee has been paid. We need some way to *associate* the employees to their manager. We could add a "Manager" column to the spreadsheet that would be filled out with the name of that person's manager (if that person is an employee and not a manager themselves). This is getting messy. Not only do we have to do a lot of searching through the spreadsheet and manual detection of who is an employee and who is a manager, but we also have to match each employee with the name of their manager. If only there was some way to simplify our system!
+So every two weeks, we would have to look through every single entry in this spreadsheet, send each person their check, and then figure out a way to identify an employee's manager to send that manager a confirmation that each employee has been paid. We need some way to *associate* the employees to their manager. We could add a "Manager" column to the spreadsheet that would be filled out with the name of that person's manager (if that person is an employee and not a manager themselves). This is getting messy. Not only do we have to do a lot of searching through the spreadsheet and manual detection of who is an employee and who is a manager, but we also have to match each employee with the name of their manager. If only there was some way to simplify our system!
 
 Enter relational databases. A relational database, simply put, is **a database structured to recognize relations among stored items of information.** In such a system, it would be easy to tell an employee that they *belong to* a certain manager and to tell a manager that they *have many* employees. This might sound familiar if you've built object oriented Ruby programs in which instances of a class are related to one another. A relational database will allow us to store representations of our Ruby objects and preserve the relationships between those objects when we store them. 
 
 ### Relational Database Structure
 
-Continuing with our payroll example from earlier, employees and managers would be stored in their own **tables**. A table is like a spreadsheet, it has columns and rows. 
+Continuing with our payroll example from earlier, employees and managers would be stored in their own **tables**. A table is like a spreadsheet; it has columns and rows. 
 
 Our managers table would look something like this:
 
@@ -57,6 +57,5 @@ Edgar Codd invented the concept of the relational database, in other words, he c
 Codd developed Relational Database Theory as a graduate student. Afterwards, he worked with Don Chamberlain at IBM to create a language that would allow the user to traverse these relational databases for specific subsets of information. 
 
 The language they created was SQL––Structured (or Standard) Query Language. SQL allows the user to carry out queries like "find the employees who make more than the managers", or "find the managers whose employees make under $X" in an efficient and sensical manner. Before SQL, database queries were all about *where* data was stored, instead of *what* data a user is looking for. 
-
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sql-relational-databases-readme' title='Edgar Codd and Relational Databases'>Edgar Codd and Relational Databases</a> on Learn.co and start learning to code for free.</p>
