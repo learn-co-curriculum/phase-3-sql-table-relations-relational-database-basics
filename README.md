@@ -1,14 +1,14 @@
-# Edgar Codd and Relational Databases
+# Relational Database Basics
 
-## Overview
+## Learning Goals
+
+- Describe the structure of a relational database as tables related through the use of primary and foreign keys
+- Define a primary key
+- Define a foreign key
+
+## Introduction
 
 We'll introduce the concept of relational databases and how they recognize relations among stored items of information.
-
-## Objectives
-
-1. Describe the structure of a relational database as tables related through the use of primary and foreign keys
-2. Define a primary key
-3. Define a foreign key
 
 ## Relational Databases
 
