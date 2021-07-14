@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Describe t∑he structure of a relational database as tables related through the use of primary and foreign keys
+- Describe the structure of a relational database as tables related through the use of primary and foreign keys
 - Define a primary key
 - Define a foreign key
 
