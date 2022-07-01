@@ -55,7 +55,7 @@ keys**.
 
 - **Primary Key**: a column in a table with an identifier (ID) that uniquely
   identifies one specific record, or row, in a table
-- **Foreign Key**: a column in from one table that refers to a primary key in
+- **Foreign Key**: a column in one table that refers to a primary key in
   another table
 
 Continuing with our payroll example from earlier, employees and managers would
